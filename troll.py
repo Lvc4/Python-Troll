@@ -19,7 +19,7 @@ def write_to_autostart(preferences):
             
             key_value = "Software\Microsoft\Windows\CurrentVersion\Run"
             open = reg.OpenKey(reg.HKEY_CURRENT_USER, key_value, 0, reg.KEY_ALL_ACCESS)
-            reg.SetValueEx(open,"Luca_Ruben_Troll", 0, reg.REG_SZ, startup_filename)
+            reg.SetValueEx(open,"Python_Troll", 0, reg.REG_SZ, startup_filename)
             reg.CloseKey(open)
         except:
             pass
