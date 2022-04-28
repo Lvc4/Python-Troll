@@ -23,6 +23,14 @@ abilities = {
 
 All abilities listed here will automaticaly be launched in an own thread on startup if ther attribute `active` is set to `True`
 
+## Compile to exe
+You can compile your finished script to an .exe file.
+
+Firstly install pyinstaller:
+`pip install pyinstaller`
+
+Then compile using:
+`pyinstaller --noconfirm --onefile --windowed --uac-admin --clean --name "TheNameForTheTrollProcess" "troll.py" `
 
 ### Implemented features
 
